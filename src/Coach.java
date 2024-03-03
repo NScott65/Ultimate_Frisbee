@@ -20,7 +20,7 @@ public class Coach extends Person{
 
     public String toString(){
         String s = "";
-        s += super.toString() + "\n   Role:" + getRole();
+        s += super.toString() + "\n   Role: " + getRole();
 
         return s;
     }

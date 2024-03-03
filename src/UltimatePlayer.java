@@ -1,6 +1,6 @@
 public class UltimatePlayer extends Person{
     int jerseyNumber;
-    static int jerseyNumberCounter;
+    static int jerseyNumberCounter = 0;
     String position;
 
     public UltimatePlayer(String firstName, String lastName, String position){
@@ -36,7 +36,7 @@ public class UltimatePlayer extends Person{
     }
 
     public String toString(){
-        return super.toString() + "Jersey #: " + getJerseyNumber() + "Position: " + getPosition();
+        return super.toString() + "\n  Jersey #: " + getJerseyNumber() + "\n  Position: " + getPosition();
     }
 
 
