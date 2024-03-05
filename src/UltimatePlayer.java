@@ -5,7 +5,7 @@ public class UltimatePlayer extends Person{
 
     public UltimatePlayer(String firstName, String lastName, String position){
         super(firstName, lastName);
-        setJerseyNumber(jerseyNumber);
+        setJerseyNumber();
         setPosition(position);
     }
 
@@ -22,8 +22,8 @@ public class UltimatePlayer extends Person{
         this.position = position;
     }
 
-    public void setJerseyNumber(int jerseyNumber){
-        this.jerseyNumber = jerseyNumber;
+    public void setJerseyNumber(){
+        this.jerseyNumber = jerseyNumberCounter;
         jerseyNumberCounter++;
     }
 
